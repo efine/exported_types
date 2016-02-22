@@ -1,0 +1,14 @@
+*.sw?
+.deps_plt
+.eunit/
+.rebar/
+ct.coverdata*
+deps/
+doc/*.html
+doc/edoc-info
+doc/erlang.png
+doc/stylesheet.css
+ebin/
+logs/
+test/*.beam
+exported_types

@@ -1,0 +1,11 @@
+{application, exported_types,
+ [
+  {description, "List exported types in BEAM files."},
+  {vsn, {cmd, "echo `cat APP_VERSION`"}},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
